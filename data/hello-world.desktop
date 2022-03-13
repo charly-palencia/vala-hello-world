@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Hello World
+Comment=Proves that we can use Vala and Gtk
+Categories=Development;Education;
+
+Icon=com.github.guarapolabs.application
+Exec=com.github.guarapolabs.application
+Terminal=false

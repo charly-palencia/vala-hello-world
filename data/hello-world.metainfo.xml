@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.hello_world.hello_world</id>
+  <name>hello-world</name>
+  <summary>hello-world</summary>
+
+  <metadata_license>MIT</metadata_license>
+  <project_license>Apache-1.0</project_license>
+
+  <description>
+    <p>
+      hello-world
+    </p>
+  </description>
+  <launchable type="desktop-id">hello-world.desktop</launchable>
+</component>
