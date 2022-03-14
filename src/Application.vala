@@ -8,7 +8,7 @@ public class Application : Gtk.Application {
   // Initializer
   public Application () {
     Object(
-      application_id: "com.github.charly-palencia.example",
+      application_id: "com.github.guarapolabs.hello-world",
       flags: ApplicationFlags.HANDLES_OPEN
       );
   }
@@ -20,7 +20,7 @@ public class Application : Gtk.Application {
       title = "Hello World"
     };
 
-    var label = new Gtk.Label("Here's a label");
+    var label = new Gtk.Label(_("Here's a label"));
 
     //Add new item to the window
     // main_window.add(button_hello);

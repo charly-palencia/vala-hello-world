@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.hello_world.hello_world</id>
+  <id>com.github.guarapolabs.hello-world</id>
   <name>hello-world</name>
   <summary>hello-world</summary>
 
