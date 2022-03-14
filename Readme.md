@@ -31,3 +31,15 @@ ninja com.github.yourusername.yourrepositoryname-pot
 ```
 sudo update-icon-caches /usr/share/icons/*
 ```
+
+### Run flatpack
+
+```
+flatpak-builder build com.github.yourusername.yourrepositoryname.yml --user --install --force-clean
+```
+
+If library or sdk version is not found , you could run this command to installed
+```
+flatpak install io.elementary.Platform
+
+```
